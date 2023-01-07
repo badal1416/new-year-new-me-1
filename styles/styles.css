@@ -1,10 +1,11 @@
-*{
+* {
+  /* margin: 0; */
+  /* padding: 0; */
   font-family: 'Times New Roman', Times, serif;
 }
 /* header section */
 .container .header{
 position: relative;
-height: 400px;
 float:left;
 width: 100%;
 }
@@ -19,24 +20,31 @@ width: 100%;
 .container .header-text{
   position:absolute;
   text-align: right;
-  vertical-align: right;
+  top: 70px;
  right: 90px;
  display: flex;
  flex-direction: column;
+ align: middle;
+ padding-right: 200px;
+ padding-top: 170px;
 }
 .header-title{
 color: black;
-font-weight: 600;
-font-size: 25px;
-width: 200px;
-height: -10px;
-margin-left: 100px;
+font-family: 'Times New Roman', Times, serif;
+font-weight:bold;
+font-size: 50px;
+width: 400px;
+margin-right: 100px;
+padding-right: 50px;
 }
 .header-description{
   color: gray;
   font-weight: 300;
   font-size: 12px;
   width: 300px;
+  height: 70px;
+  padding-left: 95px;
+  
 }
 .primary-button{
   color: white;
@@ -46,7 +54,60 @@ margin-left: 100px;
   width: 110px;
   font-weight:300;
   font-size: 16px;
-  border-radius: 2px;
-  margin-top: 10px;
-  margin-left: 190px;
+  border-radius: 3px;
+  margin-left: 285px;
+ 
+}
+/* main-content-section */
+.image-text{
+  
+}
+
+.content-text {
+margin-left: 800px;
+vertical-align: top;
+}
+.content-title{
+  font-weight: bold;
+  font-size: 25px;
+  height: 50px;
+  width: 150px;
+  margin-right: 250px;
+
+}
+
+.content-description{
+  width: 400px;
+  font-size: 12px;
+}
+
+.checkmark-text{
+  text-align: left;
+  margin-right: 190px;
+  font-size: 12px;
+  padding-bottom: 200px;
+}
+
+/* plan */
+
+.plan{
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+.myplan-container{
+  display: flex;
+  gap: 180px;
+  margin-left: 220px;
+  text-align: center;
+}
+.skill-title{
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+.skill-description{
+ color: gray;
+ font-weight: 200;
+ font-size: 18px;
 }
