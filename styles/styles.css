@@ -108,14 +108,49 @@ top: 1410px;
 }
 
 /* gradient image */
-#show_bg {
-  background-image: url(../images/watch.png);
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  color: white;
+.watch{
+  position: absolute;
+width: 1140px;
+height: 300px;
+left: 200px;
+top: 2200px;
 
 }
+.watch-title{
+  position: absolute;
+  color: white;
+width: 459px;
+height: 94px;
+left: 250px;
+top: 2210px;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+}
+.watch-button{
+  position: absolute;
+  border-radius: 5px;
+  border: none;
+width: 130px;
+height:50px;
+left: 253px;
+top: 2370px;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+color: #F15B22;
+
+}
+.gradient-image{
+  position: absolute;
+width: 1140px;
+height: 300px;
+left: 198px;
+top: 2200px;
+border: 8px;
+}
+
   
 .watch-text{
   color: black;
@@ -142,69 +177,7 @@ margin-bottom: 80px;
 }
 /* footer info */
 
-.contact{
-  display: flex;
-  gap: 500px;
-  color: white;
-  background-color: black;
-  border-radius: none;
-  width: 100%;
-  height: 400px;
-  margin-top: 130px;
-  padding-left: 150px;
-  padding-top: 80px;
-  
-}
-.contact-info{
-  display: flex;
-  flex-direction: column;
-}
-.contact-info .text-style{
-  
-  left: 150px;
-  font-weight: 600;
-  font-size: 25px;
-}
-.contact-info .enter-mail{
-  font-weight: 400;
-  font-size: 18px;
-  text-align: center;
-  border:1 px solid;
-  border-color: white;
-  background-color: black;
-  position: absolute;
-  width: 325px;
-  height: 40px;
-  left: 1060px;
-  top: 2950px;
-  border-radius: 7px;
-  
-}
-.contact-info .sub-button{
-  border-radius: 4px;
-  position: absolute;
-  width: 150px;
-  height: 50px;
-  left: 1060px;
-  top: 3010.3px;
-  font-weight: 600;
-  font-size: 20px;
-  color: #F15B22;
- 
-}
 
-.contact-description{
-  width: 400px;
-  
-}
-
-.email-name{
-  border: none;
-  border-radius: 3px;
- 
-}
-
-  
 
 
 
