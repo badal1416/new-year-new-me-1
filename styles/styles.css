@@ -1,5 +1,49 @@
+/* header */
+.header-banner{
+  top: 0px; 
+}
+.header-title{
+position: absolute;
+color: #151414;;
+width: 500px;
+height: 228px;
+left: 845px;
+top: 205px;
+ font-family:Arial, Helvetica, sans-serif;
+ font-weight: 700;
+ font-size: 65px;
+ text-align: right;
+ line-height: 76px;
+}
+.header-description{
+position: absolute;
+color: #444343;
+width: 470px;
+height: 78px;
+top: 480px;
+left: 876px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: right;
+}
+.contact-button{
+  position: absolute;
+  color: #FFFFFF;
+  width: 150px;
+  height: 55px;
+  left: 1195px;
+  top: 600px;
+  border: none;
+  border-radius: 5px;
+  background-color: #F15B22;
+  position: absolute; 
+  font-weight: 500;
+ font-size: 18px;
+ text-align: middle;
+  
 
-
+}
 /* plan */
 
 .plan{
