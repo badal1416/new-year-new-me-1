@@ -176,8 +176,99 @@ margin-bottom: 80px;
 
 }
 /* footer info */
+.contact{
+  position: absolute;
+width: 1600px;
+height: 300px;
+
+top: 2646px;
+  background-color: #151414;
+  display: flex;
+  gap: 100px;
+  /* background: #FFF8F3; */
+  padding: 130px 200px;
+}
+.contact .section-title{
+  color: white;
+  text-align:left;
+  font-weight: 700;
+font-size: 45px;
+}
+.contact .section-description{
+  color: white;
+  font-weight: 400;
+font-size: 16px;
+width: 300px;
+line-height: 22px;
+padding-bottom: 5px;
+
+}
+.contact input[type='Email'],{
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+input{
+  height: 64px;
+}
+.contact .mail{
+color: white;
+}
+.contact .number{
+  color: white;
+}
+.subs-title{
+  color: white;
+  font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+  padding-top: 30px;
+  padding-left: 300px;
+}
+#subs-mail{
+  margin-left: 300px;
+  border-color: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 325px;
+  font-weight: 400;
+font-size: 18px;
+text-align:left;
+background-color: #151414;
+}
+.subs-button{
+  
+  border-radius: 3px;
+  color: #F15B22;
+  margin-top: 190px;
+font-weight: 400;
+font-size: 16px;
+width: 170.11px;
+height: 50px;
+vertical-align: middle;
+
+ 
+}
+.btn{
+  display: flex;
+ height: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 140px;
+ padding-bottom: 500px;
+  
+ 
+}
+.subs-button{
+  border-radius: 5px;
+  color: #F15B22;
+font-weight: 600;
+font-size: 16px;
+}
 
 
 
-
-
+.contact a{
+  text-decoration: none;
+  padding-top: 5px;
