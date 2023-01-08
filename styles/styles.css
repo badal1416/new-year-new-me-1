@@ -1,92 +1,4 @@
-* {
-  /* margin: 0; */
-  /* padding: 0; */
-  font-family: 'Times New Roman', Times, serif;
-}
-/* header section */
-.container .header{
-position: relative;
-float:left;
-width: 100%;
-}
 
-.container .header-image{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  background-repeat: no-repeat;
-
-}
-.container .header-text{
-  position:absolute;
-  text-align: right;
-  top: 70px;
- right: 90px;
- display: flex;
- flex-direction: column;
- align: middle;
- padding-right: 200px;
- padding-top: 170px;
-}
-.header-title{
-color: black;
-font-family: 'Times New Roman', Times, serif;
-font-weight:bold;
-font-size: 50px;
-width: 400px;
-margin-right: 100px;
-padding-right: 50px;
-}
-.header-description{
-  color: gray;
-  font-weight: 300;
-  font-size: 12px;
-  width: 300px;
-  height: 70px;
-  padding-left: 95px;
-  
-}
-.primary-button{
-  color: white;
-  background-color:#F15B22;
-  border: none;
-  height: 42px;
-  width: 110px;
-  font-weight:300;
-  font-size: 16px;
-  border-radius: 3px;
-  margin-left: 285px;
- 
-}
-/* main-content-section */
-.image-text{
-  
-}
-
-.content-text {
-margin-left: 800px;
-vertical-align: top;
-}
-.content-title{
-  font-weight: bold;
-  font-size: 25px;
-  height: 50px;
-  width: 150px;
-  margin-right: 250px;
-
-}
-
-.content-description{
-  width: 400px;
-  font-size: 12px;
-}
-
-.checkmark-text{
-  text-align: left;
-  margin-right: 190px;
-  font-size: 12px;
-  padding-bottom: 200px;
-}
 
 /* plan */
 
@@ -181,17 +93,17 @@ margin-bottom: 80px;
   width: 325px;
   height: 40px;
   left: 1060px;
-  top: 2900px;
+  top: 2950px;
   border-radius: 7px;
   
 }
 .contact-info .sub-button{
-  border-radius: 8px;
+  border-radius: 4px;
   position: absolute;
   width: 150px;
   height: 50px;
   left: 1060px;
-  top: 2960.3px;
+  top: 3010.3px;
   font-weight: 600;
   font-size: 20px;
   color: #F15B22;
